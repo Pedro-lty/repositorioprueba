@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (index === -1) {
         alert('Usuario no encontrado');
-        window.location.href = '/paginas/paginas_admin/admin_usuarios.html';
+        window.location.href = 'admin_usuarios.html';
         return;
     }
 
@@ -32,6 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
         alert('Usuario actualizado con éxito');
-        window.location.href = '/paginas/paginas_admin/admin_usuarios.html';
+        window.location.href = 'admin_usuarios.html';
     });
 });

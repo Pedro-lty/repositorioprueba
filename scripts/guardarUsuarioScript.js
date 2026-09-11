@@ -28,6 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
         alert('Usuario guardado con éxito');
-        window.location.href = '/paginas/paginas_admin/admin_usuarios.html';
+        window.location.href = 'admin_usuarios.html';
     });
 });

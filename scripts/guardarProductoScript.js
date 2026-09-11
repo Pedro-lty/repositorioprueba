@@ -22,5 +22,5 @@ function guardar() {
     productos.push(nuevoProducto);
     localStorage.setItem('producto', JSON.stringify(productos));
 
-    window.location.href = "/paginas/paginas_admin/admin_productos.html";
+    window.location.href = "admin_productos.html";
 }

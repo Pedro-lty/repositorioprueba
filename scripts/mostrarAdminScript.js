@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const btnEditar = document.getElementById('btn-editar');
         if (btnEditar) {
-            btnEditar.href = `/paginas/paginas_admin/admin_editar_producto.html?codigo=${prod.codigo}`;
+            btnEditar.href = `admin_editar_producto.html?codigo=${prod.codigo}`;
         }
     } else {
         alert('Producto no encontrado.');
-        window.location.href = '/paginas/paginas_admin/admin_productos.html';
+        window.location.href = 'admin_productos.html';
     }
 });

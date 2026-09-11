@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <p><strong>Correo:</strong> ${usuario.correo}</p>
         <p><strong>Rol:</strong> ${usuario.rol}</p>
         <p><strong>Estado:</strong> ${usuario.estado || 'Activo'}</p>
-        <a class="boton" href="/paginas/paginas_admin/admin_editar_usuario.html?id=${usuario.id}">Editar usuario</a>
+        <a class="boton" href="admin_editar_usuario.html?id=${usuario.id}">Editar usuario</a>
     `;
 });

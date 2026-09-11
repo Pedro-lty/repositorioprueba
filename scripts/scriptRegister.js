@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 1. Redirigir solo si es Admin y ya tiene sesión abierta
     const user = JSON.parse(localStorage.getItem('user'));
     if (user && user.role === 'Admin') {
-        window.location.href = '/paginas/admin_dashboard.html';
+        window.location.href = 'paginas_admin/admin_dashboard.html';
         return;
     }
 
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('¡Registro exitoso! Ahora puedes iniciar sesión.');
 
             // Redirigir a la pantalla de login para que ingrese con sus datos
-            window.location.href = '/paginas/login.html';
+            window.location.href = 'login.html';
         });
     }
 });

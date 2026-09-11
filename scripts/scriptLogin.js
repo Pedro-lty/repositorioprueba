@@ -71,11 +71,12 @@ function configurarFormularioLogin() {
  
       console.log('[scriptLogin] Login exitoso, redirigiendo. Rol:', usuarioEncontrado.role);
  
-      // Redirección según rol
+      // Redirección según rol.
+      // Rutas relativas: este script se ejecuta desde paginas/login.html
       if (usuarioEncontrado.role === 'Admin') {
-        window.location.href = '/paginas/paginas_admin/admin_dashboard.html';
+        window.location.href = 'paginas_admin/admin_dashboard.html';
       } else {
-        window.location.href = '/index.html';
+        window.location.href = '../index.html';
       }
     } catch (error) {
       console.error('[scriptLogin] Error durante el proceso de login:', error);

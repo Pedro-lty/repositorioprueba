@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Si no hay sesión activa, redirigir al login
     if (!userSession) {
-        window.location.href = '/paginas/login.html';
+        window.location.href = '../login.html';
         return;
     }
 
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Eliminar únicamente la sesión del usuario activo
             localStorage.removeItem('user');
             alert('Sesión cerrada correctamente.');
-            window.location.href = '/paginas/login.html';
+            window.location.href = '../login.html';
         });
     }
 });

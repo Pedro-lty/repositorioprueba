@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${producto.nombre}</h2>
                     <p>Código: ${producto.codigo} | Categoría: ${producto.categoria}</p>
                     <p>Precio: $${producto.precio} | Stock: ${producto.stock} unidades</p>
-                    <a href="/paginas/paginas_admin/admin_mostrar_producto.html?codigo=${producto.codigo}">Ver producto</a>
-                    <a href="/paginas/paginas_admin/admin_editar_producto.html?codigo=${producto.codigo}">Editar</a>
+                    <a href="paginas/paginas_admin/admin_mostrar_producto.html?codigo=${producto.codigo}">Ver producto</a>
+                    <a href="paginas/paginas_admin/admin_editar_producto.html?codigo=${producto.codigo}">Editar</a>
                 </article>
             `;
         });
@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h2>${u.nombre}</h2>
                         <p>ID: ${u.id} | Rol: ${u.rol}</p>
                         <p>Correo: ${u.correo} | Estado: ${u.estado}</p>
-                        <a href="/paginas/paginas_admin/admin_mostrar_usuario.html?id=${u.id}">Ver usuario</a>
-                        <a href="/paginas/paginas_admin/admin_editar_usuario.html?id=${u.id}">Editar</a>
+                        <a href="paginas/paginas_admin/admin_mostrar_usuario.html?id=${u.id}">Ver usuario</a>
+                        <a href="paginas/paginas_admin/admin_editar_usuario.html?id=${u.id}">Editar</a>
                     </article>
                 `;
             });

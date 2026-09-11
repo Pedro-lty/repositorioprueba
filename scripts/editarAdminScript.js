@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (index === -1) {
         alert('Producto no encontrado');
-        window.location.href = '/paginas/paginas_admin/admin_productos.html';
+        window.location.href = 'admin_productos.html';
         return;
     }
 
@@ -33,6 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('producto', JSON.stringify(productos));
 
         alert('Producto actualizado con éxito');
-        window.location.href = '/paginas/paginas_admin/admin_productos.html';
+        window.location.href = 'admin_productos.html';
     });
 });
