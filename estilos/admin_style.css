@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Changa One", sans-serif;
+}
+
+
+header {
+    background-color: rgba(47, 36, 82, 0.9);
+    color: #fff;
+    padding: 15px 20px;
+    border-bottom: 2px solid #7044ce;
+}
+
+.menu {
+    width: 220px;
+    height: 100vh;
+    padding: 25px 20px;
+    background-color: rgba(84, 63, 155, 0.5);;
+    border-right: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: azure;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    color: #a040f0;
+}
+
+.menu-secundario {
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.menu-secundario hr {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 0;
+    border-top: 1px solid #fafafa;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.contenido {
+    margin-left: 220px;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.titulo-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.titulo-pagina h1 {
+    font-size: 32px;
+}
+
+.saludo {
+    margin-bottom: 6px;
+    color: white;
+}
+
+.resumen {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-resumen {
+    padding: 22px;
+    border: 1px solid #6e4b95;
+    border-radius: 10px;
+    background-color: #2e1651;
+    width: 190px;
+    flex-grow: 1;
+}
+
+.tarjeta-resumen p {
+    color: #d7cce5;
+    font-size: 14px;
+}
+
+.tarjeta-resumen strong {
+    display: block;
+    margin-top: 12px;
+    color: #bb86fc;
+    font-size: 30px;
+}
+
+.bloque-inicio {
+    padding: 22px;
+    border: 1px solid #6d4d91;
+    border-radius: 10px;
+    background-color: #7f5eb0;
+    margin-top: 20px;
+    max-width: 650px;
+    width: 100%;
+}
+
+.bloque-inicio h2 {
+    margin-bottom: 15px;
+}
+
+.bloque-inicio p {
+    margin-bottom: 15px;
+}
+
+.lista-registros {
+    padding: 22px;
+    border: 1px solid #5d249e;
+    border-radius: 10px;
+    background-color: #1d073e;
+    width: 100%;
+}
+
+.formulario {
+    padding: 22px;
+    border: 2px rgb(27, 5, 25) solid;
+    border-radius: 10px;
+    background-color: #6e4b95;
+    max-width: 650px;
+    width: 100%;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #8e44ad;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #a65cc4;
+}
+
+.boton.secundario {
+    margin-left: 8px;
+    background-color: #5c3c8f;
+    transition: 0.3s ease;
+}
+
+.boton.secundario:hover {
+    background-color: #3d2860;;
+}
+
+.lista-productos {
+    max-width: 760px;
+    width: 100%;
+}
+
+.producto {
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px rgb(124, 77, 164) solid;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #442c62;
+}
+
+.producto h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.producto p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.producto a {
+    display: inline-block;
+    margin-right: 12px;
+    color: rgb(164, 129, 200);
+}
+
+.lista-usuarios {
+    max-width: 760px;
+    width: 100%;
+}
+
+.usuario {
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px rgb(123, 77, 162) solid;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #442c62;
+}
+
+.usuario h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.usuario p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.usuario a {
+    display: inline-block;
+    margin-right: 12px;
+    color: rgb(164, 129, 200);
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.grupo-formulario {
+    margin-bottom: 18px;
+}
+
+.grupo-formulario input,
+.grupo-formulario select,
+.grupo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(44, 8, 50);
+}
+
+.detalle p {
+    padding: 12px 0;
+    border-bottom: 1px solid #a782d1;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+
+    .contenido {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo-pagina {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .resumen {
+        flex-direction: column;
+    }
+
+    .tarjeta-resumen {
+        width: 100%;
+    }
+
+    .boton.secundario {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}

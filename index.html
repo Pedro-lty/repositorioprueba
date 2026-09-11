@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Fox Gaming | Tu Tienda Favorita</title>
+    <link rel="stylesheet" href="./estilos/style-header.css">
+    <link rel="stylesheet" href="./estilos/style-footer.css">
+    <link rel="stylesheet" href="./estilos/style-inicio.css">
+    <link rel="stylesheet" href="./estilos/style-anuncios-bar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="./images/favicon.webp">
+</head>
+<body>
+    <div class="anuncios-bar">
+        <h2>¡Envío GRATIS en compras sobre $50.000 a todo el país!</h2>
+    </div>
+
+    <header id="header">
+        <div class="header-content">
+            <a href="./index.html" class="NeonFoxGaming">Neon Fox Gaming</a>
+            
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="./paginas/productos.html">Productos</a>
+                <a href="./paginas/nosotros.html">Nosotros</a>
+                <a href="./paginas/blogs.html">Blogs</a>
+                <a href="./paginas/contacto.html">Contactos</a>
+            </nav>
+
+            <div class="header-acciones">
+                <div class="btn-carrito">
+                    <a href="./paginas/carrito.html">Carrito</a>
+                </div>
+                <a href="./paginas/login.html" class="text-nextpage" onclick="localStorage.removeItem('user'); sessionStorage.removeItem('user');">Iniciar Sesión</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+   <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+    aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active d-item">
+      <img src="./images/slide1.webp" class="d-block w-100 d-img" alt="slide1">
+      <div class="carrusel-caption top-0 mt-4">
+      </div>
+    </div>
+    <div class="carousel-item d-item">
+      <img src="./images/slide2.webp" class="d-block w-100 d-img" alt="slide1">
+      <div class="carrusel-caption top-0 mt-4">
+      </div>
+    </div>
+    <div class="carousel-item d-item">
+      <img src="./images/slide3.webp" class="d-block w-100 d-img" alt="slide1">
+      <div class="carrusel-caption top-0 mt-4">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="text-destacados">
+    <h2>
+        PRODUCTOS DESTACADOS
+    </h2>
+</div>
+
+<div class="contenedor-caja">
+    <div class="caja-item">
+        <div class="periferico1">
+            <a href="./paginas/paginas-productos/teclado-redragon.html" class="img-link">
+            </a>
+        </div>
+        <p class="marca">Redragon</p>
+        <p class="desc-corta">Teclado Mecánico Gamer Redragon KUMARA RAINBOW BLACK SWITCH ROJO</p>
+        <p class="desc-corta">PRECIO: $32.990</p>
+        <a href="./paginas/carrito.html" class="btn-agregar">Agregar al carrito</a>
+    </div>
+    
+    <div class="caja-item">
+        <div class="periferico2">
+            <a href="./paginas/paginas-productos/mouse-razer-cs2.html" class="img-link">
+            </a>
+        </div>
+        <p class="marca">Razer</p>
+        <p class="desc-corta">Mouse Razer Viper V3 Pro - Counter-Strike 2 Edition</p>
+        <p class="desc-corta">PRECIO: $209.990</p>
+        <a href="./paginas/carrito.html" class="btn-agregar">Agregar al carrito</a>
+    </div>
+    
+    <div class="caja-item">
+        <div class="periferico3">
+            <a href="./paginas/paginas-productos/mousepad-snk.html" class="img-link">
+            </a>
+        </div>
+        <p class="marca">Mousepadchile</p>
+        <p class="desc-corta">Mousepad de Attack on Titan Anime 80x30 XL</p>
+        <p class="desc-corta">PRECIO: $14.990</p>
+        <a href="./paginas/carrito.html" class="btn-agregar">Agregar al carrito</a>
+    </div>
+</div>
+
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li>Centro de ayuda</li>
+                        <li>Seguimiento de mi compra</li>
+                        <li>Formulario de contacto</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Nosotros</h4>
+                    <ul>
+                        <li>Quienes somos</li>
+                        <li>Ventas coporativas</li>
+                        <li>Terminos y condiciones</li>
+                        <li>Politicas y seguridad</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href="#">🟦</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📸</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
